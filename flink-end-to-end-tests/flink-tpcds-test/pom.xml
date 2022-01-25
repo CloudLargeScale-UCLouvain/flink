@@ -76,6 +76,16 @@ under the License.
 							<finalName>TpcdsTestProgram</finalName>
 						</configuration>
 					</execution>
+					<execution>
+						<id>TpcdsTestProgramS3</id>
+						<phase>package</phase>
+						<goals>
+							<goal>shade</goal>
+						</goals>
+						<configuration>
+							<finalName>TpcdsTestProgramS3</finalName>
+						</configuration>
+					</execution>
 				</executions>
 			</plugin>
 		</plugins>
